@@ -1,6 +1,5 @@
 function Ind = SPA(X,R )
-%SPA 此处显示有关此函数的摘要
-%   此处显示详细说明
+%% successive projection algorithm
 [M, N] = size(X);
 maxX = max(max(X));
 threshold  = maxX/1e6;
